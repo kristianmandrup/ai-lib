@@ -20,7 +20,7 @@
       "url": "https://github.com/kristianmandrup/ai-lib/blob/master/LICENSE"
     }
   ],
-  "main": "lib/ai-lib",
+  "main": "lib/index",
   "bin": {
     "ai-lib": "bin/ai-lib.js"
   },
