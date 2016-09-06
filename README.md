@@ -3,28 +3,14 @@
 > Library manager for Aurelia
 
 ## Getting Started
-Install the module with: `npm install ai-lib`
 
-```javascript
-var ai-lib = require('ai-lib');
-ai-lib.awesome(); // "hello "
-```
+Install the module with: `npm install ai-lib -g`
 
 ## Documentation
 
-#### .awesome(name)
+## Run
 
-**Parameter**: `name`
-**Type**: `String`
-**Example**: `Livia`
-
-The 'awesome' method is responsible for showing a name.
-
-How to use this method
-
-```javascript
-ai-lib.awesome('livia'); // "hello livia"
-```
+`$ ai-lib --help`
 
 ## Contributing
 

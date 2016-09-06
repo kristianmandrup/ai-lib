@@ -13,12 +13,11 @@ var chai = require('chai'),
 
 chai.should();
 
-var ai-lib = require('../lib/ai-lib.js');
+var lib = require('../lib/ai-lib.js');
 
-describe('ai-lib module', function() {
-    describe('#awesome()', function() {
-        it('should return a hello', function() {
-            expect(ai-lib.awesome('livia')).to.equal('hello livia');
+describe('ai-lib', () => {
+    describe('x', () => {
+        it('should', () => {
         });
     });
 });
