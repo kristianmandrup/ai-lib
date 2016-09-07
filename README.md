@@ -6,25 +6,43 @@
 
 Install the binary: `npm install ai-lib -g`
 
-## Documentation
+## Usage
 
-## Run
+Create an Aurelia CLI app, then run the `ai-lib` CLI from the root of the Aurelia project.
 
-`$ ai-lib --help`
-
-Create an Aurelia CLI app, then run the `ai-lib` CLI from the root of the Aurelia project. 
+`$ ai-lib`
 
 ### Commands
 
+Library commands:
+- `install`
+- `bundle`
+- `list`
+
+*Usage help*
+
+`$ ai-lib --help`
+
+#### Install
 Install a library
 
 - `ai-lib install <lib>`
 - `ai-lib uninstall <lib>`
 
+Will install a library via `npm` or `jspm` and bundle it in `aurelia.json` config file. 
+
+#### Bundle
+
 Bundle a library in web app (via `aurelia.json` bundles configuration)
 
 - `ai-lib bundle <lib>`
 - `ai-lib unbundle <lib>`
+
+Will bundle a library in `aurelia.json` config file.
+
+#### List
+
+- `ai-lib list` lists all registered library configurations 
 
 ## Contributing
 
