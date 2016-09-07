@@ -13,7 +13,7 @@ var chai = require('chai'),
 
 chai.should();
 
-var lib = require('../lib/ai-lib.js');
+var lib = require('../lib/index.js');
 
 describe('ai-lib', () => {
     describe('x', () => {
