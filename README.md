@@ -1,5 +1,7 @@
 # Ai-lib [![Build Status](https://secure.travis-ci.org/kristianmandrup/ai-lib.png?branch=master)](http://travis-ci.org/kristianmandrup/ai-lib) [![NPM version](https://badge-me.herokuapp.com/api/npm/ai-lib.png)](http://badges.enytc.com/for/npm/ai-lib)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/ai-lib.svg)](https://greenkeeper.io/)
+
 > Library manager for Aurelia
 
 ## Getting Started
